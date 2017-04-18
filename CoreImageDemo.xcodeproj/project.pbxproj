@@ -13,6 +13,7 @@
 		13EB1FD11EA5EC2D000728EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13EB1FD01EA5EC2D000728EC /* Assets.xcassets */; };
 		13EB1FD41EA5EC2D000728EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13EB1FD21EA5EC2D000728EC /* LaunchScreen.storyboard */; };
 		13EB1FDD1EA5EC4B000728EC /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EB1FDC1EA5EC4B000728EC /* CoreImage.framework */; };
+		13EB1FE91EA626E2000728EC /* FilterTransitionsDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB1FE81EA626E2000728EC /* FilterTransitionsDemoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		13EB1FD31EA5EC2D000728EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13EB1FD51EA5EC2D000728EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13EB1FDC1EA5EC4B000728EC /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		13EB1FE81EA626E2000728EC /* FilterTransitionsDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTransitionsDemoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				13EB1FD01EA5EC2D000728EC /* Assets.xcassets */,
 				13EB1FD21EA5EC2D000728EC /* LaunchScreen.storyboard */,
 				13EB1FD51EA5EC2D000728EC /* Info.plist */,
+				13EB1FE81EA626E2000728EC /* FilterTransitionsDemoVC.swift */,
 			);
 			path = CoreImageDemo;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13EB1FE91EA626E2000728EC /* FilterTransitionsDemoVC.swift in Sources */,
 				13EB1FCC1EA5EC2C000728EC /* ViewController.swift in Sources */,
 				13EB1FCA1EA5EC2C000728EC /* AppDelegate.swift in Sources */,
 			);
@@ -314,6 +318,7 @@
 				13EB1FDA1EA5EC2D000728EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
