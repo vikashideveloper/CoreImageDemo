@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var activityView: UIActivityIndicatorView!
     
-    //
+    
 
     let filters = ["CIBoxBlur",
                    "CIDiscBlur",
