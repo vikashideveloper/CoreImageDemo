@@ -4,7 +4,7 @@
 //
 //  Created by Vikash Kumar on 18/04/17.
 //  Copyright © 2017 Vikash Kumar. All rights reserved.
-//
+//All the filter related to transtion will apply in this controller
 
 import UIKit
 
