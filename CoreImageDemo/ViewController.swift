@@ -58,9 +58,7 @@ class ViewController: UIViewController {
                    "CISepiaTone",
                    "CIVignette",
                    "CIVignetteEffect",
-                   
                    "CIAdditionCompositing",
-                   
                    "CIColorBlendMode",
                    "CIColorBurnBlendMode",
                    "CIColorDodgeBlendMode",
@@ -87,9 +85,7 @@ class ViewController: UIViewController {
                    "CISourceInCompositing",
                    "CISourceOutCompositing",
                    "CISourceOverCompositing",
-                   "CISubtractBlendMode"
-
-]
+                   "CISubtractBlendMode"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -131,7 +127,7 @@ class ViewController: UIViewController {
     
 }
 
-
+//MARK: Tableview Datasource and Delegates
 extension ViewController: UITableViewDataSource, UITableViewDelegate  {
     
     func numberOfSections(in tableView: UITableView) -> Int {
