@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var activityView: UIActivityIndicatorView!
     
-    
+    //
 
     let filters = ["CIBoxBlur",
                    "CIDiscBlur",
@@ -60,7 +60,6 @@ class ViewController: UIViewController {
                    "CIVignetteEffect",
                    
                    "CIAdditionCompositing",
-                   
                    "CIColorBlendMode",
                    "CIColorBurnBlendMode",
                    "CIColorDodgeBlendMode",
@@ -87,9 +86,7 @@ class ViewController: UIViewController {
                    "CISourceInCompositing",
                    "CISourceOutCompositing",
                    "CISourceOverCompositing",
-                   "CISubtractBlendMode"
-
-]
+                   "CISubtractBlendMode"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
